@@ -11,30 +11,32 @@ body {
     padding: 1em;
     /* font-family: Arial, sans-serif; */
     font-family: "Fredoka", serif;
-    color: #333;
+    color: #666;
     background-color: white;
+    line-height: 1.5;
 }
 
 h1 {
     font-weight: 600;
+    font-size: xx-large;
+    color: black;
 }
 
 h2,
 h3,
 h4 {
     font-weight: 500;
-}
-
-h1 {
-    font-size: xx-large;
+    margin: 0;
 }
 
 h2 {
     font-size: x-large;
+    color: #222;
 }
 
 h3 {
     font-size: large;
+    color: #444;
 }
 
 h4 {
@@ -42,10 +44,23 @@ h4 {
 }
 
 
+h3,
+h4,
+p {
+    margin-left: 1rem;
+}
+
+p,
+ul,
+ol {
+    font-size: 1.2em;
+}
+
 #header {
     display: flex;
     flex-direction: row;
     background-color: beige;
+    margin-bottom: 2em;
 }
 
 img.profile {
