@@ -1,0 +1,308 @@
+[basics]
+image = "gilad.jpg"
+name = "Gilad Kutiel"
+label = "PhD, Applied Scientist"
+summary = """
+I hold a PhD in computer science and have more than 20 years of experience in software engineering. 
+Over the course of my career, I have developed expertise in natural language processing (NLP), large language models (LLM), and computer vision (CV). 
+I have previously worked at top-tier companies such as Google, Facebook, and Amazon.
+"""
+
+email = "gilad.kutiel@gmail.com"
+phone = "+972-55-8858766"
+url = "https://kutiel.com"
+linkedin = "https://linkedin.com/in/kutiel/"
+
+# WORK EXPERIENCE
+[[work]]
+company = "Mobileye"
+position = "Algorithm Engineer"
+website = "https://mobileye.com"
+startDate = 2023-10-10
+endDate = 2024-09-22
+summary = """
+As a member of the Driver Monitoring System (DMS) team, I develop and maintain critical components, including driver and face detection models. 
+Additionally, I design and implement generative models to enhance and expand our datasets.
+"""
+highlights = []
+
+
+[[work]]
+company = "Verily"
+position = "Research Scientist"
+website = "https://verily.com"
+startDate = 2022-02-01
+endDate = 2023-04-01
+summary = """
+I developed a framework to estimate uncertainty in image-to-image reconstruction, addressing the challenges of quantifying uncertainty in both regression and generative models. 
+"""
+highlights = [
+    "Developed a new framework for uncertainty estimation in image-to-image reconstruction.",
+    "Published a paper on this work titled: What's Behind the Mask: Estimating Uncertainty in Image-to-Image Problems."]
+
+[[work]]
+company = "Amazon"
+position = "Applied Scientist"
+website = "https://amazon.com"
+startDate = 2019-04-01
+endDate = 2021-10-01
+summary = """
+As part of the Alexa Shopping team, I used large language models (LLMs) to summarize product reviews. 
+"""
+highlights = [
+    "Deployed large language models (LLMs) to summarize product reviews.",
+    "Published a paper on this work titled: Identifying Helpful Sentences in Product Reviews."]
+
+[[work]]
+company = "Technion"
+position = "Lecturer"
+website = "https://technion.ac.il"
+startDate = 2017-03-01
+endDate = 2019-03-01
+summary = """
+Taught foundational concepts in algorithms, including design, analysis, and optimization, to undergraduate students.
+"""
+highlights = []
+
+[[work]]
+company = "Technion"
+position = "Teaching Assistant in Charge"
+website = "https://technion.ac.il"
+startDate = 2014-10-01
+endDate = 2017-03-01
+summary = """
+Led and managed teaching activities for "Introduction to Algorithms" and "Computability" including tutoring, grading, and assisting students with course material.
+"""
+highlights = []
+
+[[work]]
+company = "Google"
+position = "Software Engineer, Emerging Markets Group"
+website = "https://google.com"
+startDate = 2012-12-01
+endDate = 2013-10-01
+summary = """
+Designed and developed web services optimized for low-end mobile devices, ensuring seamless functionality under constraints such as limited bandwidth and processing power.
+"""
+highlights = []
+
+[[work]]
+company = "IBM"
+position = "Researcher, Social Technologies Team"
+website = "https://ibm.com"
+startDate = 2011-12-01
+endDate = 2012-12-01
+summary = """
+Developed a trend detection algorithm for an enterprise activity stream platform, enabling real-time insights into emerging patterns and user engagement.
+"""
+highlights = [
+    "Published a paper on this work titled: Effective Trend Detection within a Dynamic Search Context."]
+
+[[work]]
+company = "Facebook"
+position = "Intern"
+website = "https://facebook.com"
+startDate = 2011-09-01
+endDate = 2011-11-01
+summary = """
+Redesigned and rebuilt the messaging application for the Facebook Light app, enhancing functionality and user experience for both feature phones and smartphones.
+"""
+highlights = []
+
+[[work]]
+company = "Intel"
+position = "Intern"
+website = "https://intel.com"
+startDate = 2004-03-01
+endDate = 2007-03-01
+summary = """
+Developed location based web applications.
+"""
+highlights = []
+
+# EDUCATION
+[[education]]
+institution = "Technion"
+area = "Computer Science"
+studyType = "PhD"
+startDate = 2014-10-01
+endDate = 2019-04-01
+score = "92.8"
+summary = "Developed Approximation algorithms for NP-hard optimization problems."
+highlights = [
+    "Thesis: Approximation Algorithms for Submodular Maximization and Network Design Problems.",
+    "Published 4 conference papers and 2 journal papers.",]
+
+
+[[education]]
+institution = "Technion"
+area = "Computer Science"
+studyType = "Master's Degree"
+startDate = 2008-01-01
+endDate = 2011-10-01
+score = "92.5"
+summary = "Developed algorithms for resource allocation in cloud computing."
+highlights = [
+    "Thesis: Cost-Aware Live Migration of Services in the Cloud",]
+
+[[education]]
+institution = "Technion"
+area = "Computer Science"
+studyType = "Bachelor's Degree"
+startDate = 2003-03-01
+endDate = 2008-01-01
+score = "88.8"
+summary = ""
+highlights = []
+
+
+# PUBLICATIONS
+[[publications]]
+name = "Conformal Prediction Masks: Visualizing Uncertainty in Medical Imaging"
+publisher = "Trustworthy Machine Learning for Healthcare - First International Workshop, May 4, 2023."
+releaseDate = 2023-08-12
+url = "https://doi.org/10.1007/978-3-031-39539-0\\_14"
+summary = "We present a method to generate interpretable uncertainty maps for medical imaging. This approach enhances diagnostic transparency and supports reliable decision-making in healthcare applications."
+
+
+[[publications]]
+name = "Identifying Helpful Sentences in Product Reviews"
+publisher = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics, June 6-11, 2021"
+releaseDate = 2023-09-30
+url = "https://doi.org/10.18653/v1/2021.naacl-main.55"
+summary = "We propose a method for identifying the most helpful sentences in product reviews, enhancing review summarization and supporting informed consumer decisions."
+
+
+# [[publications]]
+# name = "Local Search Algorithms for the Maximum Carpool Matching Problem"
+# publisher = "Algorithmica"
+# releaseDate = 2020-10-26
+# url = "https://doi.org/10.1007/s00453-020-00719-1"
+# summary = "We propose local search algorithms to solve the Maximum Carpool Matching Problem, optimizing ride-sharing arrangements for efficiency and scalability."
+
+[[publications]]
+name = "Approximation Algorithms for Submodular Maximization and Network Design Problems"
+publisher = "Technion, Israel"
+releaseDate = 2022-12-07
+url = "https://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2019/PHD/PHD-2019-05"
+summary = "We propose approximation algorithms for submodular maximization and network design problems, providing efficient solutions with performance guarantees for complex optimization tasks."
+
+[[publications]]
+name = "Service Chain Placement in SDNs"
+publisher = "Algorithmic Aspects of Cloud Computing - ALGOCLOUD 2017, Vienna, Austria, September 5, 2017"
+releaseDate = 2020-10-27
+url = "https://doi.org/10.1007/978-3-319-74875-7\\_3"
+summary = "We propose a method for service chain placement in Software-Defined Networks (SDNs), optimizing the deployment of network services for efficiency and scalability."
+
+# [[publications]]
+# name = "Approximation Algorithms for the Maximum Carpool Matching Problem"
+# publisher = "Computer Science - Theory and Applications - 12th International Computer Science Symposium in Russia, {CSR} 2017, Kazan, Russia, June 8-12, 2017, Proceedings"
+# releaseDate = 2019-05-14
+# url = "https://doi.org/10.1007/978-3-319-58747-9\\_19"
+# summary = "We propose approximation algorithms for the Maximum Carpool Matching Problem, providing efficient solutions to optimize carpool arrangements while ensuring scalability."
+
+[[publications]]
+name = "Local Search Algorithms for Maximum Carpool Matching"
+publisher = "25th Annual European Symposium on Algorithms, September 4-6, 2017, Vienna, Austria"
+releaseDate = 2020-02-11
+url = "https://doi.org/10.4230/LIPIcs.ESA.2017.55"
+summary = "We propose local search algorithms for the Maximum Carpool Matching problem, offering efficient solutions to optimize carpool pairings and improve overall ride-sharing logistics."
+
+[[publications]]
+name = "Effective Trend Detection within a Dynamic Search Context"
+publisher = "Proceedings of the 39th International conference on Research and Development in Information Retrieval, Pisa, Italy, July 17-21, 2016"
+releaseDate = 2018-11-14
+url = "https://doi.org/10.1145/2911451.2914705"
+summary = "We propose a method for effective trend detection within a dynamic search context, enabling real-time identification of emerging patterns to enhance search relevance and user experience."
+
+# [[publications]]
+# name = "1.5-Approximation Algorithm for the 2-Convex Recoloring Problem"
+# publisher = "Combinatorial Algorithms - 26th International Workshop, {IWOCA} 2015, Verona, Italy, October 5-7, 2015, Revised Selected Papers"
+# releaseDate = 2019-05-14
+# url = "https://doi.org/10.1007/978-3-319-29516-9\\_25"
+# summary = "We propose a 1.5-approximation algorithm for the 2-Convex Recoloring problem, offering an efficient solution with guaranteed performance for this graph coloring challenge."
+
+[[publications]]
+name = "Cost-aware live migration of services in the cloud"
+publisher = "Proceedings of the 3rd Annual Haifa Experimental Systems Conference, Haifa, Israel, May 24-26, 2010"
+releaseDate = 2022-10-02
+url = "https://doi.org/10.1145/1815695.1815709"
+summary = "We propose a cost-aware approach for live migration of services in the cloud, optimizing resource allocation and minimizing operational costs while ensuring minimal service disruption."
+
+
+# PROJECTS
+[[projects]]
+name = "mozyq.org"
+description = "A beautiful photo mosaic generator."
+url = "https://mozyq.org"
+
+[[projects]]
+name = "tsk.monster"
+description = "A cute little tsk runner"
+url = "https://tsk.monster"
+
+[[projects]]
+name = "detecty"
+description = "A Python package for detecting car plates."
+url = "https://pypi.org/project/detecty/"
+
+[[projects]]
+name = "plt-ocr"
+description = "A Python package for reading car plates number."
+url = "https://pypi.org/project/plt-ocr/"
+
+[[projects]]
+name = "NumNumNum"
+description = "A fun and simple multiplayer strategy game."
+url = "https://play.google.com/store/apps/details?id=today.dailyquiz.snake"
+
+[[projects]]
+name = "ogcrazy"
+description = "a web service that allows you to share short messages with custom Open Graph content."
+url = "https://ogcrazy.com"
+
+[[projects]]
+name = "blgit"
+description = "The simplest static blog generator on Earth."
+url = "https://blgit.org/"
+
+[[projects]]
+name = "bankidos"
+description = "A simple pocket manager app."
+url = "https://bankidos.com/"
+
+[[projects]]
+name = "gilad.kutiel.com"
+description = "My personal website (draft) about healthy lifestyle."
+url = "https://gilad.kutiel.com"
+
+# SKILLS
+[[skills]]
+name = "Machine Learning & AI"
+description = """
+Natural Language Processing (NLP), Large Language Models (LLMs), Computer Vision (CV), Uncertainty Estimation, Generative Models
+"""
+
+[[skills]]
+name = "Programming Languages"
+description = """
+Python, Java, Dart, JavaScript, TypeScript, HTML, CSS, SQL
+"""
+
+[[skills]]
+name = "Frameworks & Tools"
+description = """
+PyTorch, PyTorch Lightning, FastAPI, Docker, Svelte, Git
+"""
+
+[[skills]]
+name = "Web Development"
+description = """
+Full-stack development with Node.js and Svelte; RESTful APIs with FastAPI; 
+"""
+
+[[skills]]
+name = "Mobile Development"
+description = """
+Cross-platform app development with Flutter and Dart
+"""
