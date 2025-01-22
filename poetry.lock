@@ -203,13 +203,13 @@ files = [
 
 [[package]]
 name = "tomlcv"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.13"
 files = [
-    {file = "tomlcv-0.0.1-py3-none-any.whl", hash = "sha256:83e2d7308638921b04f3df01b02908ebc042d8b986588ebf60ab730700992f24"},
-    {file = "tomlcv-0.0.1.tar.gz", hash = "sha256:6344c22655f79fef06b86aa84456b05a81dc5b06698e12504f7b6bb999ea9b14"},
+    {file = "tomlcv-0.0.2-py3-none-any.whl", hash = "sha256:532d262a47a84fdd115e812b7f1792d852ac84ccb92845f42bf1433ff0194b47"},
+    {file = "tomlcv-0.0.2.tar.gz", hash = "sha256:9da15668985ba4552750e425ed1f56d3077f0857bec59d490b14e2149d7bf923"},
 ]
 
 [package.dependencies]
@@ -248,4 +248,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.13"
-content-hash = "bf6790f140302183965061611a225a4cba85473279d347375a899b4fae153921"
+content-hash = "7e5b1c9da31bd8c3752bc13a0ce4d339bb7e630036002eceab93a1a350d1d24d"
